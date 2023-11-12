@@ -20,4 +20,20 @@ public class StudentServiceImplementation implements StudentService {
     public List<Student> getAllStudents() {
         return studentRepository.findAll();
     }
+
+    @Override
+    public void save(Student student) {
+        studentRepository.save(student);
+
+    }
+
+    @Override
+    public Student find(Long studentId) {
+        return studentRepository.getById(studentId);
+    }
+
+    @Override
+    public void remove(Student student) {
+        studentRepository.delete(student);
+    }
 }

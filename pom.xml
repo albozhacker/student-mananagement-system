@@ -12,7 +12,7 @@
 	<artifactId>SMS-S-B-and-Thymleaf</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SMS Spring Boot and Thymeleaf</name>
-	<description>Spring Boot + Thymleaf  Student MS</description>
+	<description>Spring Boot + Thymeleaf  Student MS</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
