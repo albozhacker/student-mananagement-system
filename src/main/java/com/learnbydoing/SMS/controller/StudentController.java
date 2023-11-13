@@ -17,7 +17,7 @@ public class StudentController {
     }
 
     @GetMapping("/students")
-    public String listStudent(Model model){
+    public String listStudents(Model model){
         model.addAttribute("students", studentService.getAllStudents());
         return "students";
     }
@@ -44,7 +44,7 @@ public class StudentController {
     }
 
     @PostMapping("/students/{id}")
-    public String saveStudent(@PathVariable Long id, @ModelAttribute Student student,Model model){
+    public String saveStudent(@PathVariable Long id, @ModelAttribute Student student){
         Student existingStudent = studentService.find(id);
         existingStudent.setFirstName(student.getFirstName());
         existingStudent.setLastName(student.getLastName());

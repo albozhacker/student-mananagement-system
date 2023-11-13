@@ -1,6 +1,5 @@
 package com.learnbydoing.SMS;
 
-import com.learnbydoing.SMS.model.Student;
 import com.learnbydoing.SMS.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
