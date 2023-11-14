@@ -1,0 +1,14 @@
+.card {
+    display: inline-flex;
+    width:100pt;
+}
+
+.card-img-top {
+    height: 400px;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left:50%;
+}
